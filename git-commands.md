@@ -69,6 +69,18 @@ git init
 | `git status`                   | ***Full status***           |
 | `git status -s`                | ***Short status***          | 
 
+### Removing files
+
+| Command                     | Description                                           |
+| ---                         | ---                                                   |
+| `git rm script.js`          | ***Removes from working directory and staging area*** |
+| `git rm --cached script.js` | ***Removes from staging area only***                  |
+
+### Renaming or moving files
+
+| Command                   | Description                              |
+| ---                       | ---                                      |
+| `git mv script.js app.js` | ***Move or rename a file, a directory*** |
 
 ### Committing staged files
 
