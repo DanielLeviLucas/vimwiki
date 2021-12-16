@@ -9,6 +9,8 @@
   - [Initialize a repository](#Initialize-a-repository)
   - [Staging files](#Staging-files)
   - [Git Status](#git-status)
+  - [Removing files](#Removing-files) 
+  - [Renaming or moving files](#Renaming-or-moving-files)
   - [Committing staged files](#Committing-stageid-files)
   - [Viewing history](#Viewing-history)
 
@@ -96,5 +98,3 @@ git init
 | `git log`           | ***Full history***                       |
 | `git log --oneline` | ***Shows Commit message only***          |
 | `git log -reverse`  | ***List the from the oldest to newest*** |
-
-#
