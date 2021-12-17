@@ -98,3 +98,20 @@ git init
 | `git log`           | ***Full history***                       |
 | `git log --oneline` | ***Shows Commit message only***          |
 | `git log -reverse`  | ***List the from the oldest to newest*** |
+
+### Unstaging files
+
+| Command                          | Description              |
+| ---                              | ---                      |
+| `git restore --staged script.js` | ***Unstages script.js*** |
+
+### Discarding local changes
+
+| Command                 | Description                                               |
+| ---                     | ---                                                       |
+| `git restore script.js` | ***Copies latest script.js commit to working directory*** |
+| `git restore .`         | ***Discards all local changes but not untracked files***  |
+| `git clean -fd`         | ***Removes all untracked files***                         |
+
+
+
