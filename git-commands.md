@@ -13,8 +13,8 @@
   - [Renaming or moving files](#Renaming-or-moving-files)
   - [Committing staged files](#Committing-stageid-files)
   - [Viewing history](#Viewing-history)
-  - [Unstaging files](Unstaging-files) 
-  - [Discarding local changes](Discarding-local-changes)
+  - [Unstaging files](#Unstaging-files) 
+  - [Discarding local changes](#Discarding-local-changes)
 
 
 ## git configuration
