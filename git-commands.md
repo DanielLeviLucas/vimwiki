@@ -15,7 +15,7 @@
   - [Viewing history](#Viewing-history)
   - [Unstaging files](#Unstaging-files) 
   - [Discarding local changes](#Discarding-local-changes)
-
+  - [Restoring an earlier version of a file](#Restoring-an-earlier-version-of-a-file)
 
 ## git configuration
 
@@ -110,11 +110,22 @@ git init
 
 ### Discarding local changes
 
-| Command                 | Description                                               |
-| ---                     | ---                                                       |
-| `git restore script.js` | ***Copies latest script.js commit to working directory*** |
-| `git restore .`         | ***Discards all local changes but not untracked files***  |
-| `git clean -fd`         | ***Removes all untracked files***                         |
+| Command                 | Description                                               |   
+| ---                     | ---                                                       |   
+| `git restore script.js` | ***Copies latest script.js commit to working directory*** |   
+| `git restore .`         | ***Discards all local changes but not untracked files***  |   
+| `git clean -dn`         | ***List all untracked files that get removed***           |   
+| `git clean -fd`         | ***Removes all untracked files***                         |   
+
+### Restoring an earliter version of a file
+
+| Command                                  | Description                               |
+| ---                                      | ---                                       |
+| `git restore --sourcce=HEAD~2 script.js` | ***Restores script.js back from HEAD~2*** |
+
+
+
+
 
 
 
