@@ -117,7 +117,7 @@ git init
 | `git clean -dn`         | ***List all untracked files that get removed***           |   
 | `git clean -fd`         | ***Removes all untracked files***                         |   
 
-### Restoring an earliter version of a file
+### Restoring an earlier version of a file
 
 | Command                                  | Description                               |
 | ---                                      | ---                                       |
