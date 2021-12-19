@@ -45,6 +45,12 @@ git config --global core.editor "code --wait"
 git config --global core.autocrlf input
 ```
 
+- If you want to have prune executed with every fetch operation, you can configure Git accordingly
+
+```
+git config --global fetch.prune true
+```
+
 ### Setting up Personal Access Token
 
 ```
