@@ -31,5 +31,4 @@
 | `docker container start <container ID>` | ***Start an existing stopped image***      |
 | `docker container logs <container ID>`  | ***Show logs for a specific container***   |
 | `docker container rm <container ID>`    | ***Removes a container***                  |
-|                                         |                                            |
 
