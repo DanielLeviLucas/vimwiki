@@ -127,9 +127,7 @@ git init
 
 | Command                                  | Description                               |
 | ---                                      | ---                                       |
-| `git restore --source=HEAD~2 script.js` | ***Restores script.js back from HEAD~2*** |
-
-
+| `git restore --source=HEAD~2 script.js`  | ***Restores script.js back from HEAD~2*** |
 
 
 
