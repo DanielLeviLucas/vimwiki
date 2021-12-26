@@ -16,6 +16,8 @@
   - [Unstaging files](#Unstaging-files) 
   - [Discarding local changes](#Discarding-local-changes)
   - [Restoring an earlier version of a file](#Restoring-an-earlier-version-of-a-file)
+- [Branching and Merging](#Branching-and-Merging)
+  - [Managing branches](#managing-branches)
 
 ## git configuration
 
@@ -138,6 +140,18 @@ git init
 | `git restore --source=HEAD~2 script.js`  | ***Restores script.js back from HEAD~2*** |
 
 
+## Branching and Merging
 
+### Managing branches
 
-
+| Command                           | Description                                |
+| ---                               | ---                                        |
+| `git branch -a`                   | ***List all branches***                    |
+| `git ls-remote`                   | ***List remote branches***                 |
+| `git branch $BRANCH_NAME`         | ***Creates a new branch***                 |
+| `git checkout $BRANCH_NAME`       | ***Switches to the specified branch***     |
+| `git switch -C $BRANCH_NAME`      | ***Create a branch and switches***         |
+| `git switch $BRANCH_NAME`         | ***Switches to specified branch***         |
+| `git branch -D $BRANCH_NAME`      | ***Deletes specified branch locally***     |
+| `git push -d origin $BRANCH_NAME` | ***Removes specified branch from origin*** |
+ 
