@@ -27,7 +27,7 @@
 - **To specify your name**
 
 ```
-git config --global user.name "$NAME"
+git config --global user.name <name>
 ```
 
 - **To specify your email**
@@ -149,18 +149,18 @@ git init
 | ---                               | ---                                        |
 | `git branch -a`                   | ***List all branches***                    |
 | `git ls-remote`                   | ***List remote branches***                 |
-| `git branch $BRANCH_NAME`         | ***Creates a new branch***                 |
-| `git checkout $BRANCH_NAME`       | ***Switches to the specified branch***     |
-| `git switch -C $BRANCH_NAME`      | ***Create a branch and switches***         |
-| `git switch $BRANCH_NAME`         | ***Switches to specified branch***         |
-| `git branch -D $BRANCH_NAME`      | ***Deletes specified branch locally***     |
-| `git push -d origin $BRANCH_NAME` | ***Removes specified branch from origin*** |
+| `git branch <branch>`             | ***Creates a new branch***                 |
+| `git checkout <branch>`           | ***Switches to the specified branch***     |
+| `git switch -C <branch>`          | ***Create a branch and switches***         |
+| `git switch <branch>`             | ***Switches to specified branch***         |
+| `git branch -D <branch>`          | ***Deletes specified branch locally***     |
+| `git push -d origin <branch>`     | ***Removes specified branch from origin*** |
 
 ### Merging
 
 | Command                          | Description                                               |
 | ---                              | ---                                                       |
-| `git merge $BRANCH_NAME`         | ***merges the specified branch into the current branch*** |
-| `git merge --no-ff $BRANCH_NAME` | ***Creates a merge commit even if FF is possible***       |
+| `git merge <branch>`             | ***merges the specified branch into the current branch*** |
+| `git merge --no-ff <branch>`     | ***Creates a merge commit even if FF is possible***       |
 
 
