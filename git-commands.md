@@ -30,7 +30,7 @@ git config --global user.name "$NAME"
 - **To specify your email**
 
 ```
-git config --global user.email "$email@domain.com"
+git config --global user.email "email@domain.com"
 ```
 
 - **To configure your default editor**
@@ -41,9 +41,17 @@ git config --global core.editor "code --wait"
 
 - **To handle your EOL** 
 
-```
-git config --global core.autocrlf input
-```
+  - For linux and mocOS 
+
+    ```
+    git config --global core.autocrlf input
+    ```
+    
+  - For windows
+    
+    ```
+    git config --global core.autocrlf true
+    ```
 
 - If you want to have prune executed with every fetch operation, you can configure Git accordingly
 
