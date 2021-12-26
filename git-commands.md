@@ -18,6 +18,7 @@
   - [Restoring an earlier version of a file](#Restoring-an-earlier-version-of-a-file)
 - [Branching and Merging](#Branching-and-Merging)
   - [Managing branches](#managing-branches)
+  - [Merging](#Merging)
 
 ## git configuration
 
@@ -154,4 +155,12 @@ git init
 | `git switch $BRANCH_NAME`         | ***Switches to specified branch***         |
 | `git branch -D $BRANCH_NAME`      | ***Deletes specified branch locally***     |
 | `git push -d origin $BRANCH_NAME` | ***Removes specified branch from origin*** |
- 
+
+### Merging
+
+| Command                          | Description                                               |
+| ---                              | ---                                                       |
+| `git merge $BRANCH_NAME`         | ***merges the specified branch into the current branch*** |
+| `git merge --no-ff $BRANCH_NAME` | ***Creates a merge commit even if FF is possible***       |
+
+
