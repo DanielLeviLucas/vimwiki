@@ -3,6 +3,9 @@
 ## Table of contents
 
 - [What is Docker?](#What-is-Docker?)
+  - [Docker Image](#Docker-Image)
+  - [Containers](#Containers)
+- [Docker Commands](#Docker-Commands)
 
 ## What is Docker?
 
@@ -31,4 +34,5 @@
 | `docker container start <container ID>` | ***Start an existing stopped image***      |
 | `docker container logs <container ID>`  | ***Show logs for a specific container***   |
 | `docker container rm <container ID>`    | ***Removes a container***                  |
+| `docker system prune`                   | ***Clean up everything***                  |
 
