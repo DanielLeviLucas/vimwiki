@@ -25,14 +25,14 @@
 ### Docker basic commands
 
 
-| Command                                 | Description                                |
-| ---                                     | ---                                        |
-| `docker container run <image>`          | ***Starts a new container from an image*** |
-| `docker container ls`                   | ***list running containers***              |
-| `docker container ls -a`                | ***list all containers***                  |
-| `docker container stop <container ID>`  | ***Stops the container process***          |
-| `docker container start <container ID>` | ***Start an existing stopped image***      |
-| `docker container logs <container ID>`  | ***Show logs for a specific container***   |
-| `docker container rm <container ID>`    | ***Removes a container***                  |
-| `docker system df`                      | ***Show docker disk usage***               |
-| `docker system prune`                   | ***Clean up everything***                  |
+| Command                                 | Description                                 |
+| ---                                     | ---                                         |
+| `docker container run <image>`          | ***Starts a new container from an image***  |
+| `docker container ls`                   | ***list running containers***               |
+| `docker container ls -a`                | ***list all containers***                   |
+| `docker container stop <container ID>`  | ***Stops the container process***           |
+| `docker container start <container ID>` | ***Start an existing stopped image***       |
+| `docker container logs <container ID>`  | ***Show logs for a specific container***    |
+| `docker container rm <container ID>`    | ***Removes a container***                   |
+| `docker system df`                      | ***Show docker disk usage***                |
+| `docker system prune`                   | ***Clean up everything thats not running*** |
