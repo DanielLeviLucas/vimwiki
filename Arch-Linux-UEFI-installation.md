@@ -23,7 +23,7 @@
   - [Install sudo](#Install-sudo)
   - [Add normal user](#Add-normal-user)
   - [Configuring Boot loader](#Configuring-Boot-loader)
-  - [Networking configuration](#Network-configuration)
+  - [Network configuration](#Network-configuration)
   - [Completed](#Completed)
 - [Installing display server Xorg](#Installing-display-server-Xorg)
   - [Driver installation](#Driver-Installation)
