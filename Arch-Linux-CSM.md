@@ -323,7 +323,7 @@ pacman -Ss xf86-video
 - Install proper driver for VMWare _(On physical machines, install the appropriate driver for intel, amd or nvidia. Check the wiki.)_
 
 ```
-sudo pacman -S xf86-video-vmware
+sudo pacman -S xf86-video-vmware xf86-input-vmmouse
 ```
 
 - Installing xorg
@@ -380,22 +380,14 @@ systemctl enable lightdm.service
 
 ## Installing VMWare Tools
 
-- Install git
-
-```
-sudo pacman -S git
-```
-
 - Installation of open-vm-tools
 
 ```
-git clone https://github.com/rasa/vmware-tools-patches.git
+sudo pacman -S open-vm-tools 
 ```
 
-```
-cd vmware-tools-patches
-```
+- To start the **vmtoold** service and set it to start on boot:
 
 ```
-sudo ./patched-open-vm-tools.sh
+systemctl enable vmtoolsd
 ```
