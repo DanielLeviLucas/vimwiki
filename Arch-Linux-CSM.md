@@ -349,7 +349,7 @@ sudo pacman -S lightdm
 - After successfully installing LightDM, you may want to install LightDM greeter as well. A greeter is a GUI that prompts the user for credentials, lets the user select a session, and so on.
 
 ```
-sudo pacman -S lightdm-gtk-greeter
+sudo pacman -S lightdm-slick-greeter
 ```
 
 ### Set default LightDM greeter
@@ -365,7 +365,7 @@ sudo vim /etc/lightdm/lightdm.conf
 ```
 [Seat:*]
 ...
-greeter-session=lightdm-gtk-greeter
+greeter-session=lightdm-slick-greeter
 ```
 
 ### Start and Enable LightDM
