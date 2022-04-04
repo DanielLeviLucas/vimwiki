@@ -84,7 +84,7 @@ timedatectl set-timezone Asia/Kolkata
 cfdisk /dev/sda
 ```
 
-- Select label type as gpt
+- Select label type as `gpt`
 - Create new Partiiton size of **550M** where Type is `EFI System`.
 - Create new Partition size of 4G commonly (1.5 x RAM) where Type is `Linux swap`.
 - Create new partion size of the remaining size where Type is `Linux filesystem`.
