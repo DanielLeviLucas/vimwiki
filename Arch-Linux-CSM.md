@@ -1,4 +1,5 @@
 # Arch Linux on VMware Workstation Player Version: 16
+![Arch Linux Logo](https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png) 
 
 ## Table of contents
 
