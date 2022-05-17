@@ -11,7 +11,7 @@
   - [Git Status](#git-status)
   - [Removing files](#Removing-files) 
   - [Renaming or moving files](#Renaming-or-moving-files)
-  - [Committing staged files](#Committing-stageid-files)
+  - [Committing staged files](#Committing-staged-files)
   - [Viewing history](#Viewing-history)
   - [Unstaging files](#Unstaging-files) 
   - [Discarding local changes](#Discarding-local-changes)
